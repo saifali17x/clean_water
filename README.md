@@ -1,5 +1,7 @@
 # Clean Water Index
 
+**Live Demo:** https://clean-water-blue.vercel.app/
+
 A full-stack AI/ML system that simulates a public water tank monitoring network for Lahore. Sensor readings from each tank are passed through a trained Neural Network to produce a real-time Cleanliness Rating (0–100). An A* search algorithm finds the optimal route from an unsafe tank to the nearest safe water source.
 
 ## Architecture
