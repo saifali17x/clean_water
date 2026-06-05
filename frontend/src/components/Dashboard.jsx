@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import axios from 'axios'
 
-const API = import.meta.env.VITE_API_URL || 'http://localhost:8000'
+const API = import.meta.env.VITE_API_URL || 'https://clean-water.onrender.com'
 
 function statusColor(status) {
   if (status === 'Safe to Drink')            return '#22c55e'
